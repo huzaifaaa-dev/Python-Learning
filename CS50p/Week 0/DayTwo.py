@@ -45,7 +45,7 @@ print(f"{f:.2f}") # Method two to round to Specific Number of Decimal numbers.
 
 # Every function is basically nameoffunction() , MEMORIZE.
 def hello(to="World"):
-    print("Hello, ", to)
+    print("Hello,", to)
 
 naaamee = input("Whats your name? ")
 hello(naaamee)
@@ -55,6 +55,11 @@ def main():
     print("x cubed is", cubed(x))
 
 def cubed(n):
-    return n * n * n
+    return n * n * n # Method One
+# return n ** 3   Method Two
+# return pow(n, 2)  Method Three
 
 main()
+
+# .lower() is used to modify the entire string into small characters.
+# .replace() is used to replace any things inside a text/string you'd like to change.
