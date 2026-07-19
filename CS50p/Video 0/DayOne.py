@@ -1,3 +1,5 @@
+# Day 1 - Video 0
+# Learned: input(), int(), print(), end, sep, escape characters, and basic Python syntax.
 # Here We Go!
 age = int(input("What is your age? "))
 
