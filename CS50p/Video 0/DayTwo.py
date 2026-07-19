@@ -1,3 +1,5 @@
+# Day 2 - Video 0
+# Learned: string methods, f-strings, type conversion, floats, rounding, formatting numbers, defining and calling functions, parameters, default arguments, return values, and basic program structure.
 # How to make use of strings functions
 name = input("What is your name? ")
 # Name is our variable and we are using the strip() function to remove any whitespace from the input. 
