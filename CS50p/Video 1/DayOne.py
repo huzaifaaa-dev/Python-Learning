@@ -21,4 +21,14 @@ elif a < b:
 elif a == b:
     print("a is equal to b")
 
+c = int(input("Whats c? "))
+d = int(input("Whats d? "))
 
+if c > d:
+    print("c is greater than d")
+else:
+    if c < d:
+        print("c is greater than d")
+    if c == d:
+        print("c is equal to d")
+    
