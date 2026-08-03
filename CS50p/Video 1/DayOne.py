@@ -46,3 +46,37 @@ elif score >= 60 and score < 70:
     print("Grade: D")
 else:
     print("Grade F")
+
+if 90 <= score <= 100:
+    print("Grade: A")
+elif 80 <= score < 90:
+    print("Grade: B")
+# Continues like so
+
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+# Continues like so
+
+e = int(input("Whats e? "))
+
+if e % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+def main():
+    f = int(input("Whats f? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+main()
