@@ -86,3 +86,39 @@ def is_learning(n):
     return n % 2 == 0
 
 main()
+
+outworldy = input("Whats your name? ")
+
+if outworldy == "Harry":
+    print("Gryffindor")
+elif outworldy == "Hermione":
+    print("Gryffindor")
+elif outworldy == "Ron":
+    print("Gryffindor")
+elif outworldy == "Draco":
+    print("Slytherin")
+else:
+    print("Who?")
+
+if outworldy == "Harry" or outworldy == "Hermione" or outworldy == "Ron":
+    print("Gryffindor")
+
+match outworldy:
+    case "Harry":
+        print("Gryffindor")
+    case "Hermione":
+        print("Gryffindor")
+    case "Ron":
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:  # _ used to say 'whatever case has not been handled'
+        print("Who?")
+
+match outworldy:
+    case "Harry" | "Hermione" | "Ron":  # | used as a replacement for "or"
+        print("Gryffindor")
+    case "Draco":
+        print("Slytherin")
+    case _:  # _ used to say 'whatever case has not been handled'
+        print("Who?")
