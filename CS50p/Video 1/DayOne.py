@@ -79,4 +79,10 @@ def is_even(n):
     else:
         return False
 
+def is_odd(n):
+    return False if n % 2 == 0 else True
+
+def is_learning(n):
+    return n % 2 == 0
+
 main()
