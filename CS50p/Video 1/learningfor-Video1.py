@@ -1,5 +1,4 @@
-# Day 1 — Video 1
-# Learned: ...
+# Here We Go!
 x = int(input("Whats x? "))
 y = int(input("Whats y? "))
 
