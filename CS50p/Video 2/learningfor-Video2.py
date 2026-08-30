@@ -115,7 +115,7 @@ students = [
     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
     {"name": "Ron", "house": "Gryffindor", "Patronus": "Jack Russell Terrier"},
     {"name": "Draco", "house" : "Slytherin", "Patronus": None}
-]    # None used to literally nothing belongs in this part of the dictionary.
+]    # None used to say literally nothing belongs in this part of the dictionary.
 
 for student in students:
     print(student["name"], student(["house"]), student(["[patronus]"]), sep = ", ")
